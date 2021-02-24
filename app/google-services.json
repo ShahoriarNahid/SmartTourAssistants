@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "138430422238",
+    "firebase_url": "https://smart-tour-assistants.firebaseio.com",
+    "project_id": "smart-tour-assistants",
+    "storage_bucket": "smart-tour-assistants.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138430422238:android:fe0852cb72f17a9058b64f",
+        "android_client_info": {
+          "package_name": "com.example.smarttourassistants"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138430422238-gkco2a1if47qjlv848a2ghtal0d6npet.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5hAhTEPAT9wW1n2VKAho7H_d8qwI8Q4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138430422238-gkco2a1if47qjlv848a2ghtal0d6npet.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

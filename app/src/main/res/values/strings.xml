@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Smart Tour Assistants</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- <string-array name="Scategory">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+    </string-array>
+    <string-array name="Slocation">
+        <item>A1</item>
+        <item>B2</item>
+        <item>C3</item>
+        <item>D4</item>
+        <item>E5</item>
+    </string-array>-->
+</resources>

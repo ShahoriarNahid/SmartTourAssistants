@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<group android:checkableBehavior="single">
+
+
+    <item
+        android:id="@+id/homedl"
+        android:icon="@drawable/ic_looks_one_black_24dp"
+        android:title="Home"></item>
+
+    <item
+       android:id="@+id/suggested_place"
+       android:icon="@drawable/ic_beach_access_black_24dp"
+       android:title="Suggested Place"></item>
+
+    <item
+        android:id="@+id/hotel"
+        android:icon="@drawable/ic_looks_one_black_24dp"
+        android:title="Hotel and Resort"></item>
+    <item
+        android:id="@+id/restaurant"
+        android:icon="@drawable/ic_looks_one_black_24dp"
+        android:title="Restaurant"></item>
+
+    <item
+        android:id="@+id/tourguideline"
+        android:icon="@drawable/ic_looks_one_black_24dp"
+        android:title="Tour Guideline"></item>
+
+
+</group>
+
+    <group>
+
+        <item
+            android:id="@+id/aboutus"
+            android:icon="@drawable/ic_looks_one_black_24dp"
+            android:title="About"></item>
+    </group>
+
+</menu>
