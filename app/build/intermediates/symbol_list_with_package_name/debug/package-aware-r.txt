@@ -1897,8 +1897,6 @@ id contiguous
 id coordinator
 id cos
 id counterclockwise
-id courseholder
-id coursetext
 id custom
 id customPanel
 id cut
@@ -1937,8 +1935,6 @@ id easeInOut
 id easeOut
 id edit_query
 id elastic
-id emailholder
-id emailtext
 id end
 id endToStart
 id end_padder
@@ -1985,8 +1981,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imagegholder
-id img1
 id info
 id invisible
 id inward
@@ -2063,8 +2057,6 @@ id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
 id mymensingh
-id nameholder
-id nametext
 id nav_controller_view_tag
 id nav_host_fragment_container
 id navigation
@@ -2228,6 +2220,7 @@ id withText
 id withinBounds
 id wrap
 id wrap_content
+id wrapper
 id zero_corner_chip
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
@@ -2316,7 +2309,6 @@ layout fragment_home
 layout fragment_hoteln_restaurants
 layout fragment_profile
 layout fragment_restaurant
-layout fragment_restaurants_details
 layout fragment_suggested_place
 layout fragment_tour_guideline
 layout material_chip_input_combo
@@ -2381,7 +2373,6 @@ layout placerow
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
-layout singlerow
 layout support_simple_spinner_dropdown_item
 layout test_action_chip
 layout test_chip_zero_corner_radius

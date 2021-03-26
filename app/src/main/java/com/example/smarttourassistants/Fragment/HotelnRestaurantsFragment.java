@@ -13,8 +13,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.smarttourassistants.R;
-import com.example.smarttourassistants.model;
-import com.example.smarttourassistants.myadapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -24,9 +22,6 @@ import com.google.firebase.database.FirebaseDatabase;
  */
 public class HotelnRestaurantsFragment extends Fragment {
 
-
-    RecyclerView hotelRecview;
-    myadapter adapter;
     public HotelnRestaurantsFragment() {
         // Required empty public constructor
     }
@@ -38,32 +33,11 @@ public class HotelnRestaurantsFragment extends Fragment {
         // Inflate the layout for this fragment
         v =  inflater.inflate(R.layout.fragment_hoteln_restaurants, container, false);
 
-        hotelRecview=(RecyclerView)v.findViewById(R.id.recview);
-        hotelRecview.setLayoutManager(new LinearLayoutManager(getContext()));
 
-        FirebaseRecyclerOptions<model> options =
-                new FirebaseRecyclerOptions.Builder<model>()
-                        .setQuery(FirebaseDatabase.getInstance().getReference().child("places"), model.class)
-                        .build();
-
-
-
-        adapter=new myadapter(options);
-        hotelRecview.setAdapter(adapter);
 
         return v;
     }
 
-    @Override
-    public void onStart() {
-        super.onStart();
-        adapter.startListening();
-    }
 
-    @Override
-    public void onStop() {
-        super.onStop();
-        adapter.stopListening();
-    }
 
 }

@@ -17,7 +17,7 @@
     <item
         android:id="@+id/hotel"
         android:icon="@drawable/ic_looks_one_black_24dp"
-        android:title="Hotel and Resort"></item>
+        android:title="Hotel and Restaurant"></item>
     <item
         android:id="@+id/restaurant"
         android:icon="@drawable/ic_looks_one_black_24dp"

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Smarttourassistents.iml" filepath="$PROJECT_DIR$/.idea/Smarttourassistents.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Smart_Tour_Assistants.iml" filepath="$PROJECT_DIR$/.idea/modules/Smart_Tour_Assistants.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Smart_Tour_Assistants.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Smart_Tour_Assistants.app.iml" />
     </modules>
   </component>
 </project>

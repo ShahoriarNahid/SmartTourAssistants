@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "H:\\SmartTourAssistants\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hu\\values-hu.xml",
+            "outputFile": "F:\\Smarttourassistents\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hu\\values-hu.xml",
             "map": [
                 {
                     "source": "C:\\Users\\User\\.gradle\\caches\\transforms-2\\files-2.1\\43a9726822229a3ef8bad49e16232bd7\\jetified-play-services-basement-17.0.0\\res\\values-hu\\values.xml",

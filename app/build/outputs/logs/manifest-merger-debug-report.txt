@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml:2:1-25:12
 MERGED from [androidx.navigation:navigation-ui:2.3.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\b4ebe1bfea1038050ea76104c6b96ee3\navigation-ui-2.3.3\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\448c7975c43a7e5ef099f4ae155bc6b2\material-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\User\.gradle\caches\transforms-2\files-2.1\32460cf1f05fd1d640db83825eaeb671\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
@@ -63,33 +63,33 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\User\.gradle\
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\83f7aac03676d9dfb3cdf387fcd4f2d6\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\00abb87977721b26b27055511b219c92\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\2f0c5bae3ac8a066392ff9fab8dc3b35\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml:2:1-25:12
 	package
-		ADDED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:3:5-46
-		INJECTED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml
-		INJECTED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml
+		ADDED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml:3:5-46
+		INJECTED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml
-		ADDED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:2:1-25:12
-		INJECTED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml
+		ADDED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml
-		ADDED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:2:1-25:12
-		INJECTED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml
+		ADDED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml:5:5-67
 MERGED from [com.firebaseui:firebase-ui-database:7.1.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\79c47d7b299d990e40277ee2d7f0dd6d\jetified-firebase-ui-database-7.1.1\AndroidManifest.xml:11:5-67
 MERGED from [com.firebaseui:firebase-ui-database:7.1.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\79c47d7b299d990e40277ee2d7f0dd6d\jetified-firebase-ui-database-7.1.1\AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-database:19.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d0caf471e809d508f85180a8825b3244\jetified-firebase-database-19.6.0\AndroidManifest.xml:26:5-67
 MERGED from [com.google.firebase:firebase-database:19.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d0caf471e809d508f85180a8825b3244\jetified-firebase-database-19.6.0\AndroidManifest.xml:26:5-67
 	android:name
-		ADDED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:7:5-23:19
+ADDED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml:7:5-23:19
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\448c7975c43a7e5ef099f4ae155bc6b2\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\448c7975c43a7e5ef099f4ae155bc6b2\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\User\.gradle\caches\transforms-2\files-2.1\32460cf1f05fd1d640db83825eaeb671\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -119,43 +119,43 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\User\.gradle\
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\bb5a21ce9583e52c7d629f105a4a2b52\core-1.3.2\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:13:9-40
+		ADDED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml:13:9-40
 activity#com.example.smarttourassistants.DistrictActivity
-ADDED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:14:9-63
+ADDED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml:14:9-63
 	android:name
-		ADDED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:14:19-51
+		ADDED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml:14:19-51
 activity#com.example.smarttourassistants.SplashScreen
-ADDED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:15:9-21:20
+ADDED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:15:19-47
+		ADDED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml:15:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:16:13-20:29
+ADDED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:17:17-69
+ADDED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml:19:27-74
 activity#com.example.smarttourassistants.MainActivity
-ADDED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:22:9-50
+ADDED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml:22:9-50
 	android:name
-		ADDED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:22:19-47
+		ADDED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml:22:19-47
 uses-sdk
-INJECTED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml
-INJECTED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml
+INJECTED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml
+INJECTED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml
 MERGED from [androidx.navigation:navigation-ui:2.3.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\b4ebe1bfea1038050ea76104c6b96ee3\navigation-ui-2.3.3\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui:2.3.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\b4ebe1bfea1038050ea76104c6b96ee3\navigation-ui-2.3.3\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\448c7975c43a7e5ef099f4ae155bc6b2\material-1.3.0\AndroidManifest.xml:20:5-44
@@ -274,16 +274,16 @@ MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\User\.gradle\caches
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\00abb87977721b26b27055511b219c92\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\2f0c5bae3ac8a066392ff9fab8dc3b35\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\2f0c5bae3ac8a066392ff9fab8dc3b35\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
-INJECTED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml
-INJECTED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml
+INJECTED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml
+INJECTED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml
-		ADDED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml
-		INJECTED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml
+		ADDED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml
-		ADDED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml
-		INJECTED from H:\SmartTourAssistants\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml
+		ADDED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Smarttourassistents\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-database:19.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d0caf471e809d508f85180a8825b3244\jetified-firebase-database-19.6.0\AndroidManifest.xml:25:5-79
 	android:name

@@ -6,13 +6,13 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="19"
-8-->H:\SmartTourAssistants\app\src\main\AndroidManifest.xml
+8-->F:\Smarttourassistents\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->H:\SmartTourAssistants\app\src\main\AndroidManifest.xml
+9-->F:\Smarttourassistents\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:5:5-67
-11-->H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:5:22-64
+11-->F:\Smarttourassistents\app\src\main\AndroidManifest.xml:5:5-67
+11-->F:\Smarttourassistents\app\src\main\AndroidManifest.xml:5:22-64
 12
 13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
 14    <!-- <uses-sdk android:minSdkVersion="14"/> -->
@@ -21,97 +21,98 @@
 15-->[com.google.firebase:firebase-database:19.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d0caf471e809d508f85180a8825b3244\jetified-firebase-database-19.6.0\AndroidManifest.xml:25:22-76
 16
 17    <application
-17-->H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:7:5-23:19
+17-->F:\Smarttourassistents\app\src\main\AndroidManifest.xml:7:5-23:19
 18        android:allowBackup="true"
-18-->H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:8:9-35
+18-->F:\Smarttourassistents\app\src\main\AndroidManifest.xml:8:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 19-->[androidx.core:core:1.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\bb5a21ce9583e52c7d629f105a4a2b52\core-1.3.2\AndroidManifest.xml:24:18-86
 20        android:debuggable="true"
 21        android:icon="@mipmap/ic_launcher"
-21-->H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:9:9-43
+21-->F:\Smarttourassistents\app\src\main\AndroidManifest.xml:9:9-43
 22        android:label="@string/app_name"
-22-->H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:10:9-41
+22-->F:\Smarttourassistents\app\src\main\AndroidManifest.xml:10:9-41
 23        android:roundIcon="@mipmap/ic_launcher_round"
-23-->H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:11:9-54
+23-->F:\Smarttourassistents\app\src\main\AndroidManifest.xml:11:9-54
 24        android:supportsRtl="true"
-24-->H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:12:9-35
-25        android:theme="@style/AppTheme" >
-25-->H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:13:9-40
-26        <activity android:name="com.example.smarttourassistants.DistrictActivity" />
-26-->H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:14:9-63
-26-->H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:14:19-51
-27        <activity android:name="com.example.smarttourassistants.SplashScreen" >
-27-->H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:15:9-21:20
-27-->H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:15:19-47
-28            <intent-filter>
-28-->H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:16:13-20:29
-29                <action android:name="android.intent.action.MAIN" />
-29-->H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:17:17-69
-29-->H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:17:25-66
-30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:19:17-77
-31-->H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:19:27-74
-32            </intent-filter>
-33        </activity>
-34        <activity android:name="com.example.smarttourassistants.MainActivity" />
-34-->H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:22:9-50
-34-->H:\SmartTourAssistants\app\src\main\AndroidManifest.xml:22:19-47
-35
-36        <service
-36-->[com.google.firebase:firebase-database:19.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d0caf471e809d508f85180a8825b3244\jetified-firebase-database-19.6.0\AndroidManifest.xml:29:9-35:19
-37            android:name="com.google.firebase.components.ComponentDiscoveryService"
-37-->[com.google.firebase:firebase-database:19.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d0caf471e809d508f85180a8825b3244\jetified-firebase-database-19.6.0\AndroidManifest.xml:30:13-84
-38            android:directBootAware="true"
-38-->[com.google.firebase:firebase-common:19.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
-39            android:exported="false" >
-39-->[com.google.firebase:firebase-database:19.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d0caf471e809d508f85180a8825b3244\jetified-firebase-database-19.6.0\AndroidManifest.xml:31:13-37
-40            <meta-data
-40-->[com.google.firebase:firebase-database:19.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d0caf471e809d508f85180a8825b3244\jetified-firebase-database-19.6.0\AndroidManifest.xml:32:13-34:85
-41                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-41-->[com.google.firebase:firebase-database:19.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d0caf471e809d508f85180a8825b3244\jetified-firebase-database-19.6.0\AndroidManifest.xml:33:17-109
-42                android:value="com.google.firebase.components.ComponentRegistrar" />
-42-->[com.google.firebase:firebase-database:19.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d0caf471e809d508f85180a8825b3244\jetified-firebase-database-19.6.0\AndroidManifest.xml:34:17-82
-43            <!--
-44                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
-45                clients to use it as well, by defining this registrar in their own core/common library.
-46            -->
-47            <meta-data
-47-->[com.google.firebase:firebase-common:19.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
-48                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
-48-->[com.google.firebase:firebase-common:19.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
-49                android:value="com.google.firebase.components.ComponentRegistrar" />
-49-->[com.google.firebase:firebase-common:19.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
-50        </service>
-51
-52        <provider
-52-->[com.google.firebase:firebase-common:19.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
-53            android:name="com.google.firebase.provider.FirebaseInitProvider"
-53-->[com.google.firebase:firebase-common:19.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
-54            android:authorities="com.example.smarttourassistants.firebaseinitprovider"
-54-->[com.google.firebase:firebase-common:19.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
-55            android:directBootAware="true"
-55-->[com.google.firebase:firebase-common:19.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
-56            android:exported="false"
-56-->[com.google.firebase:firebase-common:19.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
-57            android:initOrder="100" />
-57-->[com.google.firebase:firebase-common:19.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
-58
-59        <activity
-59-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\f24f285fed98fec75b889c09d17bbc49\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-60            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-60-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\f24f285fed98fec75b889c09d17bbc49\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-61            android:exported="false"
-61-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\f24f285fed98fec75b889c09d17bbc49\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-62            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-62-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\f24f285fed98fec75b889c09d17bbc49\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-63
-64        <meta-data
-64-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\43a9726822229a3ef8bad49e16232bd7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-65            android:name="com.google.android.gms.version"
-65-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\43a9726822229a3ef8bad49e16232bd7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-66            android:value="@integer/google_play_services_version" />
-66-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\43a9726822229a3ef8bad49e16232bd7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-67    </application>
-68
-69</manifest>
+24-->F:\Smarttourassistents\app\src\main\AndroidManifest.xml:12:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme" >
+26-->F:\Smarttourassistents\app\src\main\AndroidManifest.xml:13:9-40
+27        <activity android:name="com.example.smarttourassistants.DistrictActivity" />
+27-->F:\Smarttourassistents\app\src\main\AndroidManifest.xml:14:9-63
+27-->F:\Smarttourassistents\app\src\main\AndroidManifest.xml:14:19-51
+28        <activity android:name="com.example.smarttourassistants.SplashScreen" >
+28-->F:\Smarttourassistents\app\src\main\AndroidManifest.xml:15:9-21:20
+28-->F:\Smarttourassistents\app\src\main\AndroidManifest.xml:15:19-47
+29            <intent-filter>
+29-->F:\Smarttourassistents\app\src\main\AndroidManifest.xml:16:13-20:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->F:\Smarttourassistents\app\src\main\AndroidManifest.xml:17:17-69
+30-->F:\Smarttourassistents\app\src\main\AndroidManifest.xml:17:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->F:\Smarttourassistents\app\src\main\AndroidManifest.xml:19:17-77
+32-->F:\Smarttourassistents\app\src\main\AndroidManifest.xml:19:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity android:name="com.example.smarttourassistants.MainActivity" />
+35-->F:\Smarttourassistents\app\src\main\AndroidManifest.xml:22:9-50
+35-->F:\Smarttourassistents\app\src\main\AndroidManifest.xml:22:19-47
+36
+37        <service
+37-->[com.google.firebase:firebase-database:19.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d0caf471e809d508f85180a8825b3244\jetified-firebase-database-19.6.0\AndroidManifest.xml:29:9-35:19
+38            android:name="com.google.firebase.components.ComponentDiscoveryService"
+38-->[com.google.firebase:firebase-database:19.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d0caf471e809d508f85180a8825b3244\jetified-firebase-database-19.6.0\AndroidManifest.xml:30:13-84
+39            android:directBootAware="true"
+39-->[com.google.firebase:firebase-common:19.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+40            android:exported="false" >
+40-->[com.google.firebase:firebase-database:19.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d0caf471e809d508f85180a8825b3244\jetified-firebase-database-19.6.0\AndroidManifest.xml:31:13-37
+41            <meta-data
+41-->[com.google.firebase:firebase-database:19.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d0caf471e809d508f85180a8825b3244\jetified-firebase-database-19.6.0\AndroidManifest.xml:32:13-34:85
+42                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+42-->[com.google.firebase:firebase-database:19.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d0caf471e809d508f85180a8825b3244\jetified-firebase-database-19.6.0\AndroidManifest.xml:33:17-109
+43                android:value="com.google.firebase.components.ComponentRegistrar" />
+43-->[com.google.firebase:firebase-database:19.6.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d0caf471e809d508f85180a8825b3244\jetified-firebase-database-19.6.0\AndroidManifest.xml:34:17-82
+44            <!--
+45                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+46                clients to use it as well, by defining this registrar in their own core/common library.
+47            -->
+48            <meta-data
+48-->[com.google.firebase:firebase-common:19.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+49                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+49-->[com.google.firebase:firebase-common:19.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+50                android:value="com.google.firebase.components.ComponentRegistrar" />
+50-->[com.google.firebase:firebase-common:19.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+51        </service>
+52
+53        <provider
+53-->[com.google.firebase:firebase-common:19.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+54            android:name="com.google.firebase.provider.FirebaseInitProvider"
+54-->[com.google.firebase:firebase-common:19.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+55            android:authorities="com.example.smarttourassistants.firebaseinitprovider"
+55-->[com.google.firebase:firebase-common:19.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+56            android:directBootAware="true"
+56-->[com.google.firebase:firebase-common:19.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+57            android:exported="false"
+57-->[com.google.firebase:firebase-common:19.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+58            android:initOrder="100" />
+58-->[com.google.firebase:firebase-common:19.5.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\7972834fc9a3de8dd20c85e62bfc7997\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+59
+60        <activity
+60-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\f24f285fed98fec75b889c09d17bbc49\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+61            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+61-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\f24f285fed98fec75b889c09d17bbc49\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+62            android:exported="false"
+62-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\f24f285fed98fec75b889c09d17bbc49\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+63            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+63-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\f24f285fed98fec75b889c09d17bbc49\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+64
+65        <meta-data
+65-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\43a9726822229a3ef8bad49e16232bd7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+66            android:name="com.google.android.gms.version"
+66-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\43a9726822229a3ef8bad49e16232bd7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+67            android:value="@integer/google_play_services_version" />
+67-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\43a9726822229a3ef8bad49e16232bd7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+68    </application>
+69
+70</manifest>
