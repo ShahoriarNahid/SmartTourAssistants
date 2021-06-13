@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C2196F3"
+    tools:context=".division.SyletSubDiv.Jaflong">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2C2196F3"
+        android:orientation="vertical">
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/jafS"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            app:iss_auto_cycle="true"
+            app:iss_delay="0"
+            app:iss_period="3000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jaflong - Sylet"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#6f6f6f"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="5dp"></TextView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="16dp"
+                android:orientation="vertical"
+                android:background="#3276FF03">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="Jaflong of Sylhet is called the daughter of nature. This is a lovely land of natural beauty on the foothils of Jointa hill. The decorted stone on the bank of Pian river increases its beauty."
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="High hills of India beyond the border, Water fall from the Dauki hill, swinging Dauki Bridge, Crystal water of Pian river, deep forest on high hills, quiet and clam environment will fascinated you. For its unimaginable beauty Jaflong is also called the Beauty spot, Picnic spot, the queen of beauty. So, Jaflong considered as very attractive place for the tourist. If you go to Shylet you can never miss to visit Jaflong."
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="Location: Jaflong is situated at Goainghat Upazila in Shylet district. From Sylhet city Jaflong is about 56 km."
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="You can go Jaflong from Sylhet by bus, micro bus, or CNG auto Rickshaw. It would take 1 hour to 1.30 hour. It would take 80 tk. per passenger. If you want to take reserve and for round trip it would take 3000 to 3500tk. for micro bus. For CNG you would need 1000 to 1200tk. You can rent micro bus or CNG from any bus station or auto rickshaw station from Sylhet city to go Jaflong."
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+
+            </LinearLayout>
+
+
+
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

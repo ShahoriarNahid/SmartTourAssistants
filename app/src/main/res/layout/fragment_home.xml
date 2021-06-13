@@ -6,14 +6,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".Fragment.HomeFragment">
+    tools:context=".division.HomeFragment">
 
 
-        <RelativeLayout
+       <!-- <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#fff">
-            <TextView
+           &lt;!&ndash; <TextView
                 android:id="@+id/fragment_home_text_dashboard"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -24,13 +24,13 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/fragment_home_text_dashboard"
                 android:layout_marginTop="20dp"
-                android:layout_marginBottom="20dp"></androidx.appcompat.widget.SearchView>
-        </RelativeLayout>
+                android:layout_marginBottom="20dp"></androidx.appcompat.widget.SearchView>&ndash;&gt;
+        </RelativeLayout>-->
 
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#2196F3">
+            android:background="#2C2196F3">
         <GridLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -40,12 +40,12 @@
             android:columnCount="1">
 
             <androidx.cardview.widget.CardView
-                android:layout_height="match_parent"
+                android:id="@+id/dhaka"
+                android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 app:cardElevation="6dp"
-                android:id="@+id/dhaka"
                 app:cardCornerRadius="12dp"
                 android:layout_margin="12dp">
                 <LinearLayout
@@ -53,22 +53,24 @@
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:padding="16dp"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="#3276FF03">
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        android:src="@drawable/mobile">
+                        android:layout_width="320dp"
+                        android:layout_height="240dp"
+                        android:src="@drawable/dhaka">
                     </ImageView>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Dhaka"
-                        android:textSize="18sp"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
                         android:textColor="#6f6f6f"
                         android:layout_marginTop="12dp"></TextView>
                 </LinearLayout>
-            </androidx.cardview.widget.CardView>
 
+            </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_height="wrap_content"
@@ -84,17 +86,19 @@
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:padding="16dp"
+                    android:background="#3276FF03"
                     android:orientation="vertical">
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        android:src="@drawable/mobile">
+                        android:layout_width="320dp"
+                        android:layout_height="240dp"
+                        android:src="@drawable/rajshahi">
                     </ImageView>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Rajshahi"
-                        android:textSize="18sp"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
                         android:textColor="#6f6f6f"
                         android:layout_marginTop="12dp"></TextView>
                 </LinearLayout>
@@ -114,18 +118,20 @@
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:padding="16dp"
+                    android:background="#3276FF03"
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        android:src="@drawable/mobile">
+                        android:layout_width="320dp"
+                        android:layout_height="240dp"
+                        android:src="@drawable/rangpur">
                     </ImageView>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Rangpur"
-                        android:textSize="18sp"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
                         android:textColor="#6f6f6f"
                         android:layout_marginTop="12dp"></TextView>
                 </LinearLayout>
@@ -145,18 +151,20 @@
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:padding="16dp"
+                    android:background="#3276FF03"
                     android:orientation="vertical">
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        android:src="@drawable/mobile">
+                        android:layout_width="320dp"
+                        android:layout_height="240dp"
+                        android:src="@drawable/sylet">
                     </ImageView>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Sylet"
-                        android:textSize="18sp"
-                        android:textColor="#6f6f6f"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:textColor="#3F51B5"
                         android:layout_marginTop="12dp"></TextView>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -170,25 +178,27 @@
                 app:cardElevation="6dp"
                 app:cardCornerRadius="12dp"
                 android:layout_margin="12dp">
-                <LinearLayout
+               <!-- <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:padding="16dp"
+                    android:background="#3276FF03"
                     android:orientation="vertical">
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        android:src="@drawable/mobile">
+                        android:layout_width="320dp"
+                        android:layout_height="240dp"
+                        android:src="@drawable/chattagram">
                     </ImageView>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Chittagong"
-                        android:textSize="18sp"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
                         android:textColor="#6f6f6f"
                         android:layout_marginTop="12dp"></TextView>
-                </LinearLayout>
+                </LinearLayout>-->
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -200,25 +210,27 @@
                 app:cardElevation="6dp"
                 app:cardCornerRadius="12dp"
                 android:layout_margin="12dp">
-                <LinearLayout
+            <!--    <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:padding="16dp"
+                    android:background="#3276FF03"
                     android:orientation="vertical">
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        android:src="@drawable/mobile">
+                        android:layout_width="320dp"
+                        android:layout_height="240dp"
+                        android:src="@drawable/mymansingh">
                     </ImageView>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Mymensingh"
-                        android:textSize="18sp"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
                         android:textColor="#6f6f6f"
                         android:layout_marginTop="12dp"></TextView>
-                </LinearLayout>
+                </LinearLayout>-->
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -235,17 +247,19 @@
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:padding="16dp"
+                    android:background="#3276FF03"
                     android:orientation="vertical">
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        android:src="@drawable/mobile">
+                        android:layout_width="320dp"
+                        android:layout_height="240dp"
+                        android:src="@drawable/khulna">
                     </ImageView>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Khulna"
-                        android:textSize="18sp"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
                         android:textColor="#6f6f6f"
                         android:layout_marginTop="12dp"></TextView>
                 </LinearLayout>
@@ -265,21 +279,25 @@
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:padding="16dp"
+                    android:background="#3276FF03"
                     android:orientation="vertical">
                     <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        android:src="@drawable/mobile">
+                        android:layout_width="320dp"
+                        android:layout_height="240dp"
+                        android:src="@drawable/barishal">
                     </ImageView>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Barishal"
-                        android:textSize="18sp"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
                         android:textColor="#6f6f6f"
                         android:layout_marginTop="12dp"></TextView>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
+
+
 
         </GridLayout>
 

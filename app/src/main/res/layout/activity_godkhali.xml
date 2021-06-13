@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C2196F3"
+    tools:context=".division.KhulnaSubDiv.Godkhali">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2C2196F3"
+        android:orientation="vertical">
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/godS"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            app:iss_auto_cycle="true"
+            app:iss_delay="0"
+            app:iss_period="3000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Godkhali Flower Garden"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#6f6f6f"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="5dp"></TextView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="16dp"
+                android:orientation="vertical"
+                android:background="#3276FF03">
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="Following is a list of other nature attractions found within few kilometers of Godkhali Flower Garden. You may also view all nature attractions in Jessore, Khulna Division."
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

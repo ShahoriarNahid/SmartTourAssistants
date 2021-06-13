@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C2196F3"
+    tools:context=".division.RajshahiSubDiv.ChhotoSonaMosque">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2C2196F3"
+        android:orientation="vertical">
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/chotosonaS"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            app:iss_auto_cycle="true"
+            app:iss_delay="0"
+            app:iss_period="1000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choto Sona Mosque"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#6f6f6f"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="5dp"></TextView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="16dp"
+                android:orientation="vertical"
+                android:background="#3276FF03">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Choto Shona Mosque (Bengali: ছোট সোনা মসজিদ, Small Golden Mosque) is located in Chapai Nawabganj district of Bangladesh. The mosque is situated about 3 kilometres (1.9 mi) south of the Kotwali Gate and 0.5 kilometres (0.31 mi) to the south-east of the Mughal Tahakhana complex in the Firozpur Quarter."
+                    android:textSize="18sp"
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HISTORY"
+                    android:textSize="20sp"
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The mosque was built during the reign of the Sultan of Bengal Alauddin Husain Shah, between 1493 and 1519. The fifteen domes of the mosque were once gilded, giving the mosque the name of Choto Shona Masjid (Small Golden Mosque).[1] The mosque is one of the best-preserved sultana monuments under protection by the Department of Archaeology and Museums, Governments of Bangladesh. The gilding that gave the building its name does not exist anymore. The mosque premise, which covers an area of 42 m from east to west by 43.5 m from north to south, was originally surrounded by an outer wall (now restored) with a gateway in the middle of the east side."
+                    android:textSize="18sp"
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Current situation"
+                    android:textSize="20sp"
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CThe glamour of the Chhoto Sona Masjid is not there as it was originally, particularly because of the stripping of the decorative mihrabs and the mosque courtyard, but the remains are nevertheless one of the most attractive monuments of Guar-Lakhnauti."
+                    android:textSize="18sp"
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+
+            </LinearLayout>
+
+
+
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C2196F3"
+    tools:context=".division.RajshahiSubDiv.TarashpalacePabna">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2C2196F3"
+        android:orientation="vertical">
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/tarashpalacePabnaS"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            app:iss_auto_cycle="true"
+            app:iss_delay="0"
+            app:iss_period="3000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tarash palace – Pabna"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#6f6f6f"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="5dp"></TextView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="16dp"
+                android:orientation="vertical"
+                android:background="#3276FF03">
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Taras building Rai Bahadur Shah is almost untouched until now at Pabna downtown. The landlord of Tarash of Pabna is the most prominent and known as old landlord. At that time,landlord family was known as the landlord of that area.There were a Kayisto landlord near toKodla village of Chandokonai  upozila of Bogura district. The familyof  Tarhash was the biggest landlord in Pabna district. Nawab Murshid Quli Khan was awarded the title ‘Roy’  to Basudeb. His estate was about 200 mouja."
+                    android:textSize="18sp"
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The ruling dynasty of Banamaliray was the institute of Banamali. In 1942 during World War II, Zamindar family had taken refuge in the Taras historic building which built in Pabna.The largest Tarash building of Paban standindg  until today bearing their memory of ruling as landlord. The building was built in the city known as Taras palace."
+                    android:textSize="18sp"
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The Tarash building was built with the influence of European Renaissance during the British colonial rule, which is standing until today bearing the memory of landlord Ray Bahador Banamali. The buildings size is rectangular and  the length of it is 30.40 meters (100 feet) and width 18.28 meters (60 feet).There are two  increased body is connected to the two sides of the building landlord Tarhash.The Tarash palace has been used as government department. As a result the condition of this palace is contrast to other landlord building. Recently the building has been listed as preserved building in the Department of Archaeology."
+                    android:textSize="18sp"
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+
+            </LinearLayout>
+
+
+
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

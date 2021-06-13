@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C2196F3"
+    tools:context=".division.KhulnaSubDiv.MemorialComplexMeherpur">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2C2196F3"
+        android:orientation="vertical">
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/mujibS"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            app:iss_auto_cycle="true"
+            app:iss_delay="0"
+            app:iss_period="3000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Memorial Complex – Meherpur"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#6f6f6f"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="5dp"></TextView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="16dp"
+                android:orientation="vertical"
+                android:background="#3276FF03">
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mujibnagar is historically very important place as the first place in the provisional government’s swearing of Bangladesh. A memorial wall has been constructed to keep the memory of oath in that place. The different sectors of war has been shown on a map in this complex.A memorial moral has been set up in the complex."
+                    android:textSize="18sp"
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="A statue of certain historical events was established inside the war memorial complex. The outer part of the complex the senerio of historic 7th March speech of Bangubandhu,the provisional government took oath and surrender of Pakistani forces ware placing along with the statue of a historical event."
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="Accommodation:There are good facilities for accomodation in the wra complex for the tourist who come from various disricts of Bangladesh and also outside the country.Besides this there are 3 VIP room for the in the district council.Also there are some residensial hotel in sadr of Meherpur district."
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="Amrakanan is 18 km away from Meherpur district by road. It is possible to reach Amrakanan within 30 minutes by local Bus,Tempo,Nochimon,Karimon etc.Bus fare may be 25-30 from Meherpur Sadr."
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

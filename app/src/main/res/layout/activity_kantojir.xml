@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C2196F3"
+    tools:context=".division.RangpurSubDiv.Kantojir">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2C2196F3"
+        android:orientation="vertical">
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/kantoS"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            app:iss_auto_cycle="true"
+            app:iss_delay="0"
+            app:iss_period="3000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kantajew Temple - Dinajpur"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#6f6f6f"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="5dp"></TextView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="16dp"
+                android:orientation="vertical"
+                android:background="#3276FF03">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kantanagar Temple, commonly known as Kantaji Temple or Kantajew Temple (Bengali: কান্তজীর মন্দির) at Kantanagar,[1] is a late-medieval Hindu temple in Dinajpur, Bangladesh. The Kantajew Temple is a religious edifice belonging to the 18th century. The temple belongs to the Hindu Kanta or Krishna and this is most popular with the Radha-Krishna cult (assemble of memorable love) in Bengal. This temple is dedicated to Krishna and his wife Rukmini. Built by Maharaja Pran Nath, its construction started in 1704 CE and ended in the reign of his son Raja Ramnath in 1722 CE.[2][3] It is an example of terracotta architecture in Bangladesh and once had nine spires, but all were destroyed in an earthquake that took place in 1897."
+                    android:textSize="18sp"
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The temple was built in a navaratna (nine-spired) style before the destruction caused by the earthquake of 1897. The characteristic features of the erections are the four centered and wide multi-cusped arches, the plastered surface of the walls having immense rectangular and square panelings, prominence of the central archway and the central mihirab by making the slightly larger and setting in a projected fronton in the outside directions, the use of ornamental turrets on the either side of the fronton, the semi-octagonal mirirab apertures, the archway opening under half-domes, the Persian muquarnas work in stucco inside the half-domes over the entrance arches and mihirab niches, the bulbous outline of the domes with constructed necks, domes on octagonal drums with lotus and kalasa finials as the crowning elements, the round pendentives to make up the phase of transition for the domes and the multi-faced corner towers rising high above the horizontal merloned parapets"
+                    android:textSize="18sp"
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+
+            </LinearLayout>
+
+
+
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TravelAdvice.TravelWithBaby">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2C2196F3"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:src="@drawable/travelwithbaby">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Travel with Baby/Child"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#6f6f6f"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="5dp"></TextView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="16dp"
+                android:orientation="vertical"
+                android:background="#3276FF03">
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Booking: Pre Booking for Hotel, Bus, and Plane is the most important to avoid extra pain in tour. For bus and plain you can book sit at front side to avoid extra shake of transport. For bus journey you can choice AC bus and book an extra sit for your baby."
+                    android:textSize="18sp"
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Baby Carriers: In travel time you can take a baby carrier for you baby. It will help you to do some work with him."
+                    android:textSize="18sp"
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Comfortable Clothes:   you can select comfortable clothes for your baby in travel time. Wear clothing that is easier to change his diaper."
+                    android:textSize="18sp"
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="For plan fly: A lot of time flying planes before and during landing the air pressure can be felt in their ears, the baby is in trouble. Sao that’s time you can feed him, because sucking intake air pressure in the ear is less felt."
+                    android:textSize="18sp"
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+
+
+            </LinearLayout>
+
+
+
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

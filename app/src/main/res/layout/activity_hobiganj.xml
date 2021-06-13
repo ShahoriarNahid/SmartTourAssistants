@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C2196F3"
+    tools:context=".division.SyletSubDiv.Hobiganj">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2C2196F3"
+        android:orientation="vertical">
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/satS"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            app:iss_auto_cycle="true"
+            app:iss_delay="0"
+            app:iss_period="3000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Satchari National Park – Habiganj"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#6f6f6f"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="5dp"></TextView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="16dp"
+                android:orientation="vertical"
+                android:background="#3276FF03">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="Satchari national park is a natural park of Bangladesh. After the 1974 Wild Life Preservation Act, in 2005 Satchari National Park was built on 243 hectares (600 acres) of land. Literally ‘Satchari’ in Bengali means ‘Seven Streams’. There are seven streams flowing in this jungle, and the name ‘Satchari’ came from there."
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="The park is situated in Raghunandan hill, under Paikpara Union, Chunarughat Upazila, Habiganj District, under Sylhet region. It is 130 kilometres (81 mi) from the capital city of Bangladesh, Dhaka. There are 9 tea gardens nearby. Satchari tea garden is on the West and Chaklapunji tea garden is on the East. Approximately 24 families of Tipra Tribe are living now in the Tipra village."
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="People of 14 village nearby the park they are directly and indirectly depends on this park. Especially they are working as a tea garden worker and others fields which are related with park."
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="There are approximately 200 and more trees are in Satchari National Park. Shaal (Shorea robusta), Segun (Tectona grandis), Agar, Garjan, Chapalish, Palm, Mehgani, Krishnachur, Dumur (Ficus), Jamrul, Shidha Jarul, Awal, Malekas, Eucalyptus, Akashmoni, Bamboo trees, bet trees (regional name Mutra) are the most common species of trees found there."
+                android:textColor="#2E2C2C"
+                android:layout_marginTop="12dp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="Wildlife in this park is rich. Red junglefowl, red-headed trogon, Oriental pied hornbill and pygmy woodpecker are some of them. The critically endangered hoolock gibbon also resides here. Also Phayre’s leaf monkey, a species of langur also resides here. Asian black bear also resides here in small numbers."
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+
+
+            </LinearLayout>
+
+
+
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

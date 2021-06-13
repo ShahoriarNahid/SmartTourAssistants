@@ -4,7 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".Fragment.AboutFragment">
+    android:orientation="vertical"
+    tools:context=".TravelAdvice.TravelAdviceFragment">
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -18,7 +20,7 @@
             android:columnCount="1">
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/dhaka"
+                android:id="@+id/stayhealthy"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_columnWeight="1"
@@ -32,33 +34,18 @@
                     android:gravity="center"
                     android:padding="16dp"
                     android:orientation="vertical"
-                    android:background="#1200E676">
+                    android:background="#3276FF03">
                     <ImageView
-                        android:layout_width="match_parent"
+                        android:layout_width="320dp"
                         android:layout_height="240dp"
-                        android:src="@drawable/nahid">
+                        android:src="@drawable/stayhealthy">
                     </ImageView>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Md. Shahoriar Nahid"
+                        android:text="Stay healthy while traveling"
                         android:textSize="24sp"
                         android:textStyle="bold"
-                        android:textColor="#6f6f6f"
-                        android:layout_marginTop="12dp"></TextView>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="171-15-838"
-                        android:textSize="24sp"
-                        android:textColor="#6f6f6f"
-                        android:layout_marginTop="12dp"></TextView>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="shahoriar15-838@diu.edu.bd"
-                        android:textSize="15sp"
-
                         android:textColor="#6f6f6f"
                         android:layout_marginTop="12dp"></TextView>
                 </LinearLayout>
@@ -66,11 +53,11 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/photographar"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
-                android:id="@+id/rajshahi"
                 app:cardElevation="6dp"
                 app:cardCornerRadius="12dp"
                 android:layout_margin="12dp">
@@ -79,47 +66,95 @@
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:padding="16dp"
-                    android:background="#1200E676"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="#3276FF03">
                     <ImageView
-                        android:layout_width="match_parent"
+                        android:layout_width="320dp"
                         android:layout_height="240dp"
-                        android:src="@drawable/shudipto">
+                        android:src="@drawable/photographar">
                     </ImageView>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Md. Shudipto Haydar"
+                        android:text="Photographer Uniform"
                         android:textSize="24sp"
                         android:textStyle="bold"
                         android:textColor="#6f6f6f"
                         android:layout_marginTop="12dp"></TextView>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/tarvelwithbaby"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:background="#3276FF03"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="240dp"
+                        android:src="@drawable/travelwithbaby">
+                    </ImageView>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="171-15-886"
+                        android:text="Travel with Baby/Child"
                         android:textSize="24sp"
                         android:textStyle="bold"
-                        android:textColor="#6f6f6f"
-                        android:layout_marginTop="12dp"></TextView>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="shudipto15-838@diu.edu.bd"
-                        android:textSize="15sp"
                         android:textColor="#6f6f6f"
                         android:layout_marginTop="12dp"></TextView>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-
-
-
+            <androidx.cardview.widget.CardView
+                android:id="@+id/dressSelection"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:background="#3276FF03"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="240dp"
+                        android:src="@drawable/bagpacklist">
+                    </ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dress Selection"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:textColor="#6f6f6f"
+                        android:layout_marginTop="12dp"></TextView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
 
         </GridLayout>
 
     </ScrollView>
-
 
 
 

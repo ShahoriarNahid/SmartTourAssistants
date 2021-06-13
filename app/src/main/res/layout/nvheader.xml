@@ -2,17 +2,23 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="150dp"
-    android:gravity="bottom"
-    android:padding="16dp"
+    android:layout_height="165dp"
+    android:padding="15dp"
+    android:gravity="left"
     android:theme="@style/ThemeOverlay.AppCompat.Dark"
-    android:background="#FFD607"
+    android:background="#BADA4A"
     >
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:src="@drawable/logo"></ImageView>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="This is header"
+        android:text="Welcome to Smart Tour Assistant"
+        android:layout_marginTop="10dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"></TextView>
 
 </LinearLayout>

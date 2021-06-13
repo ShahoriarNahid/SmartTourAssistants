@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C2196F3"
+    tools:context=".division.SyletSubDiv.Moulvibazar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2C2196F3"
+        android:orientation="vertical">
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/lawS"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            app:iss_auto_cycle="true"
+            app:iss_delay="0"
+            app:iss_period="1000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lawachara National Park – Moulvibazar"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#6f6f6f"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="5dp"></TextView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="16dp"
+                android:orientation="vertical"
+                android:background="#3276FF03">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="Lawachara alive with Biodiversity which is situated at Kamalganj Upazila in Moulovi  bazar. It is about 10 km away from the capital of tea Srimongol on west besides Srimongol vs Komolgonj road. Among seven wildlife sanctuaries and ten national parks of Bangladesh, Lawachara National Park is one of them. This evergreen forest is considered as a safe habitat of extinct ape. This woodland is famous for various rare animals, insects and trees. Lauachora is very popular to the tourist after Sundarbon."
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="How it comes. The history is very ancient of Lawachara National Park . British government at first started to planting trees in 1925. Increasing this kinds of trees gradually now it has created a woodland called Lawachara . In 1996 government gave it the status of national park."
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="This forest contains 460 species of rare wildlife and plant. Among them 167 species of plants, Four species of amphibians, Six species of reptiles, 20 species of mammals and 246 species of birds. The main attraction of Lauachora is almost extinct ape. They live along with their family in High branches of tree. Various kinds of monkey, tiger, fox and deer are seen there also. Among the birds green doves, moorfowl, parrot, cuckoo etc. There are lot of tree such as Gorjon, Gamar, Jamrul, Segun, Chapalish, Shimul, Nagesswar etc."
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:text="Its structure is consisted with a great combination of low and high elevation. Sometime you can get the way of walk through the forest. There is much sand under the ground in here. There are several mountain springs have passed through the forest. But those are full of water in rainy season."
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+
+            </LinearLayout>
+
+
+
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

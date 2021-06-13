@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".Fragment.HotelnRestaurantsFragment"
-    android:background="#F342A73F">
+    tools:context=".division.SyletSubDiv.Sylet">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -20,7 +19,7 @@
             android:columnCount="1">
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/hotel"
+                android:id="@+id/jaflong"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_columnWeight="1"
@@ -36,15 +35,15 @@
                     android:orientation="vertical"
                     android:background="#3276FF03">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="320dp"
-                        android:src="@drawable/hotel">
+                        android:layout_width="320dp"
+                        android:layout_height="240dp"
+                        android:src="@drawable/jaflong">
                     </ImageView>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Available Hotel"
-                        android:textSize="20sp"
+                        android:text="Jaflong"
+                        android:textSize="24sp"
                         android:textStyle="bold"
                         android:textColor="#6f6f6f"
                         android:layout_marginTop="12dp"></TextView>
@@ -54,7 +53,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/resort"
+                android:id="@+id/lawacharaEco"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_columnWeight="1"
@@ -70,15 +69,48 @@
                     android:orientation="vertical"
                     android:background="#3276FF03">
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="320dp"
-                        android:src="@drawable/resort">
+                        android:layout_width="320dp"
+                        android:layout_height="240dp"
+                        android:src="@drawable/lawacharapark">
                     </ImageView>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Available Restaurants"
-                        android:textSize="20sp"
+                        android:text="Lawachara National Park"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:textColor="#6f6f6f"
+                        android:layout_marginTop="12dp"></TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sathchoriEco"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:orientation="vertical"
+                    android:background="#3276FF03">
+                    <ImageView
+                        android:layout_width="320dp"
+                        android:layout_height="240dp"
+                        android:src="@drawable/sathchoriecopark">
+                    </ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Satchari National Park"
+                        android:textSize="24sp"
                         android:textStyle="bold"
                         android:textColor="#6f6f6f"
                         android:layout_marginTop="12dp"></TextView>
@@ -87,10 +119,8 @@
 
             </androidx.cardview.widget.CardView>
 
-
         </GridLayout>
 
     </ScrollView>
-
 
 </LinearLayout>

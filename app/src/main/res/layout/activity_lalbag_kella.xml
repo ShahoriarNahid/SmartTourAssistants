@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C2196F3"
+    tools:context=".division.DhakaSubDiv.LalbagKella">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2C2196F3"
+        android:orientation="vertical">
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/lalbagKellaS"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            app:iss_auto_cycle="true"
+            app:iss_delay="0"
+            app:iss_period="3000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lalbag Kella"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#6f6f6f"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="5dp"></TextView>
+
+        <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="16dp"
+            android:orientation="vertical"
+            android:background="#3276FF03">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lalbagh Fort (also Fort Aurangabad) is an incomplete 17th-century Mughal fort complex that stands before the Buriganga River in the southwestern part of Dhaka, Bangladesh.[1] The construction was started in 1678 AD by Mughal Subahdar Muhammad Azam Shah, who was son of Emperor Aurangzeb and later emperor himself. His successor, Shaista Khan, did not continue the work, though he stayed in Dhaka up to 1688."
+                android:textSize="18sp"
+                android:textColor="#2E2C2C"
+                android:layout_marginTop="12dp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Mughal prince Muhammad Azam, third son of Aurangzeb started the work of the fort in 1678 during his vice-royalty in Bengal. He stayed in Bengal for 15 months. The fort remained incomplete when he was called away by his father Aurangzeb.
+
+Shaista Khan was the new subahdar of Dhaka in that time, and he did not complete the fort. In 1684, the daughter of Shaista Khan named Iran Dukht Pari Bibi died there. After her death, he started to think the fort as unlucky, and left the structure incomplete.[2] Among the three major parts of Lalbagh Fort, one is the tomb of Bibi Pari.
+
+After Shaista Khan left Dhaka, it lost its popularity. The main cause was that the capital was moved from Dhaka to Murshidabad. After the end of the royal Mughal period, the fort became abandoned. In 1844, the area acquired its name as Lalbagh replacing Aurangabad, and the fort became Lalbagh Fort.[3]"
+                android:textSize="18sp"
+                android:textColor="#2E2C2C"
+                android:layout_marginTop="12dp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="For long the fort was considered to be a combination of three buildings (the mosque, the tomb of Bibi Pari and the Diwan-i-Aam), with two gateways and a portion of the partly damaged fortification wall. Recent excavations carried out by the Department of Archaeology of Bangladesh have revealed the existence of other structures.
+
+The southern fortification wall has a huge bastion in the southwestern corner. On the north of the south fortification wall were the utility buildings, stable, administration block, and its western part accommodated a beautiful roof-garden with arrangements for fountains and a water reservoir. The residential part was located on the east of the west fortification wall, mainly to the southwest of the mosque.
+
+The fortification wall on the south had five bastions at regular intervals two stories in height, and the western wall had two bastions; the biggest one is near the main southern gate. The bastions had a tunnel.
+
+The central area of the fort is occupied by three buildings – the Diwan-i-Aam and the hammam on its east, the Mosque on the west and the Tomb of Pari Bibi in between the two – in one line, but not at an equal distance. A water channel with fountains at regular intervals connects the three buildings from east to west and north to south.[1]"
+                android:textSize="18sp"
+                android:textColor="#2E2C2C"
+                android:layout_marginTop="12dp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Archeologists discovered the continuity of the main fort walls eastward below Shaishta Khan Road. They opined that the present area of Qilla represents half the portion as planned by Prince Azam Khan. The gate at the southeast the fort (adjacent to Lalbagh Shahi Masjid) as per requirement fits properly as the Central Gate in the middle of Fort. The other half to the east — likely planned for administrative purpose (Girde Qilla area) — were incomplete or extinct long ago.[8]
+
+There are some tunnels in the fort which are now sealed. It is said that two of the tunnels lead to now ruined Zinzira Fort which was on the other side of the Buriganga River. Another passage was made as a maze. It is claimed that many defeated sepoys (soldiers) of the Sepoy Revolution of 1857 tried to run away through the passage and lost their lives. The British soldiers who chased them to arrest also did not return. To investigate the claim, British researchers sent an elephant and dogs to the tunnel but they did not return either. After that, the tunnels were sealed.[9]"
+                android:textSize="18sp"
+                android:textColor="#2E2C2C"
+                android:layout_marginTop="12dp"></TextView>
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

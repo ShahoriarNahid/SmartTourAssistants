@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:elevation="8dp"
+
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#3276FF03"
+        android:padding="15dp">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/hotelImageD"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hotelnameD"
+            android:text="This is Demo Name"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/hotelImageD"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hotellocationD"
+            android:text="This is Course Name"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/hotelImageD"
+            android:layout_below="@id/hotelnameD"
+            android:layout_marginLeft="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hotelDetailsD"
+            android:text="Details"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/hotelImageD"
+            android:layout_below="@id/hotellocationD"
+            android:layout_marginLeft="10dp"/>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

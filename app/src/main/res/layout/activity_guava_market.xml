@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C2196F3"
+    tools:context=".division.BarishalSubDiv.GuavaMarket">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2C2196F3"
+        android:orientation="vertical">
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/guavaS"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            app:iss_auto_cycle="true"
+            app:iss_delay="0"
+            app:iss_period="3000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guava Market"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#6f6f6f"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="5dp"></TextView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="16dp"
+                android:orientation="vertical"
+                android:background="#3276FF03">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The southern region of Bangladesh is famous for guavas, more popularly known in Bangladesh as 'Bengal's Apple'. Specially in Jhalokathi Sadar Upazila and at Swarupkathi and Banaripara Upazila in Pirozpur, farmers heavily rely on guava farming. Such diversity of life is hardly to be found in other places of the country. Loss in guava farming in one season usually leads to extreme distress for the farmers throughout the year. The current year is one of those.
+Very recently I went to visit these canals of Barisal and wondered whether I am actually roaming around Venice or not. The floating guava market at Bhimruli over Kirtipasha canal was simply majestic. I spoke with farmer Amal Bishwas who purchased a 1.5 bigha (measurement of land) guava orchard few months back for Tk. 25,000. Six to seven maunds (unit of weight) of guava are collected every day from his orchard. The methods of collecting guava from the tree are very tricky. Farmers are now finding it really tough because of the low market price. The price of guava per KG is Tk. 2 or 3. According to the farmers, the prices get even lower than this, going down to 10 taka per maund! In this circumstance, it's getting difficult for Amal to work really hard from dawn to dusk along with his wife Anjali to acquire his desired profit."
+                    android:textSize="18sp"
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="All the guavas become ripened due to the constant heavy rain just few days ago, and it's now a challenge to sell these guavas in the market. Amal's hope of getting a market price of Tk. 200 per maund is just a dream now."
+                    android:textSize="18sp"
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The eye-soothing guava orchards on canals over Jhalokathi's Sugandha, Bishkhali, Gabkhan and Sandhya river are Southern region's main places of guava farming. Every day, thousand of tons of guavas are supplied all across the country. Boats are the main transportation for supplying. Farmers carry the guavas onto the boats from the river-adjacent orchards. There are hundreds of boats filled with guava and all the trades occur on boats."
+                    android:textSize="18sp"
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The floating market appears as the centre of Barisal's (aka The Venice of Bengal) beauty. Nobody knows when the idea of this floating market began, but it's a hundred-year old tradition. Development and modernization are taking over the country but it's surprising to see them not reaching to this river-oriented life yet. For more than 100 years, the local farmers have been experiencing the ups and downs of life along with the ebb and flow of the river. Many farmers and wholesalers gather here every day."
+                    android:textSize="18sp"
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+
+            </LinearLayout>
+
+
+
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

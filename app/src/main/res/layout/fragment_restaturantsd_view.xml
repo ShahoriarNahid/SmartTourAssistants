@@ -3,12 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragment.ProfileFragment">
+    android:background="#2C2196F3"
+    tools:context="com.example.smarttourassistants.Restaurants.RestaurantsdViewFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/resRecviewD"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
-
+        />
 </FrameLayout>

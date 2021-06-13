@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C2196F3"
+    tools:context=".division.DhakaSubDiv.PanamCity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#2C2196F3">
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/panamCityS"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            app:iss_auto_cycle="true"
+            app:iss_delay="0"
+            app:iss_period="3000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Panam City"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#6f6f6f"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="5dp"></TextView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="16dp"
+                android:orientation="vertical"
+                android:background="#3276FF03">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Panam City is situated at Sonargaon, Narayanganj in Bangladesh. It is an extremely ancient historical city in Bangladesh. Among the three cities of Boro nagar(Big City), Khas Nagar, Panam Nagar, it was the most attractive city.[1] There are many historical buildings which were built centuries ago and those are related with the history of Baro-Bhuyan. It covered 20 km area of Sonargaon. Panam City is one of the most visited tourist spots in Bangladesh."
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="As the capital of the fifteenth-century Bengal ruler Isa Khan, and once an important trading and political center, Sonargaon boasts architecture of the Sultanate, Mughal, and colonial periods. The Sonargaon historic city, located near the present-day capital of Dhaka, includes several Mughal monuments—among them the Sonakanda River Fort, the Panch Pir Mazar Shrine, and Ibrahim's and Abdul Hamid's Mosque. British colonial architecture preserved in Sonargaon includes the Ananda Mohan Piddar House, and other street-front houses. For travelers making their way along the 2,500-kilometer Grand Trunk Road from Peshawar in the Hindu Kush, Sonargaon marked the end of the line. Threats to the site include flooding, vandalism, unauthorized occupation, illegal development etc."
+                    android:textSize="18sp"
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

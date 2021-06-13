@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C2196F3"
+    tools:context=".division.RajshahiSubDiv.PorshuramsPalaceBogura">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2C2196F3"
+        android:orientation="vertical">
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/porshuramsPalaceS"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            app:iss_auto_cycle="true"
+            app:iss_delay="0"
+            app:iss_period="3000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Porshuram’s Palace-Bogura"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#6f6f6f"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="5dp"></TextView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="16dp"
+                android:orientation="vertical"
+                android:background="#3276FF03">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Porshuram palace is one of the ancient monuments that has been discovered inside the enclosure of Mahasthangar historic palace. It is locally known as the so-called Hindu king Porshuram Palace. Porshuram was the sixth incarnation of Vishnu.  He was present until treta period.Although,Porshuram’s father was jamadagni Brahmin, his mother Renuka was Kshatriya.He won halberd by his severe austerities  from Shiva and learn the art of war."
+                    android:textSize="18sp"
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pal kings ruled here until AD 750 to 1124. According to the myth, the king Nol’s younger brother Nil was the state king between 1082-1125 AD. At that time,one of the cursed Brahmin’s came to the Mahasthanagar  from India’s daksinatbera sriksetra . This Brahmin was appointed as the first head priest of the pundranagara. Then he took the guardianship of king Nol and his brother to minimise their internal quarrels. Then The Brahmin became the king of pundranagara by cheating with NOL and his brother Nil. The name of cursed Brahmins was Ram. Only Ram is known as porshuram in Mahasthanagar.The palace of last Hindu king porshuram was situated 250m away from the shrine of Shah Sultan Balakhir and 200m north-side from the area of Mohakali Kundu. Here, cultural relics of the Pals, the Muslims and the British colonial-era were found as a result excavation (1961). Some of the ruins of the buildings, some terracotta brick nakshi thin (blade) and some building remains at the center of the building is supposed to be some of the terracotta pots of Pal period were found on the lower level of excavation .These are Muslim regime. A residence of the eighteenth or early nineteenth century were found at the highest level of the excavation area. That is the Porshuram’s palace."
+                    android:textSize="18sp"
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+
+            </LinearLayout>
+
+
+
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

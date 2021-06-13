@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C2196F3"
+    tools:context=".division.DhakaSubDiv.AhsanMonzil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2C2196F3"
+        android:orientation="vertical">
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/ahsanMonjilS"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            app:iss_auto_cycle="true"
+            app:iss_delay="0"
+            app:iss_period="3000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ahsan Manzil"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#6f6f6f"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="5dp"></TextView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="16dp"
+                android:orientation="vertical"
+                android:background="#3276FF03">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ahsan Manzil is located in the Islampur area of old Dhaka on the north bank of the river Buriganga. It was the residence and headquarters of the Nawab family of Dhaka, designated by British India. This beautiful building is one of the finest architectural landmarks of Dhaka. Ahsan Manzil is one of many national and international monuments with many memorable events in the development and political development of Dhaka city.
+
+In the early eighteenth century, Sheikh Inayat Ullah Ahsan, a zamindar of the Jalalpur pargana (now Faridpur-Barisal), built a garden house at the present site. Later, his son sold the house to a French businessman. The French used it as a trade cottage. In 1830, Khwaja Aliullah, father of Nawab Abdul Gani, who lives in Begum Bazar, bought and rehabilitated this kuthi. Nawab Abdul Gani renovated the palace in 1869. Due to many changes and additions to the building, the old building does not exist. After the construction of the new building, he named it Ahsan Manzil after his beloved son Khwaja Ahsan Ullah."
+                    android:textSize="18sp"
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="14dp"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The entire Ahsan floor is divided into two parts. The domed section on the east side is called the Palace building or the Rangmahal. Andormahal is a building comprised of residential buildings in the western part. The palace building is again divided into two parts. In the center of the circular room is an octagonal high dome. To the east there is a meeting room, library, cardroom and three guest rooms, and on the west a dance hall, Hindustani rooms and a few residential rooms. The main point of Ahsan Manzil is the wide staircase leading from the floor to the courtyard of Prasad, which is located towards Buriganga. To the east is the dining hall, to the west is the billiard room, the court hall and the treasury. On both the north and south sides of the palace building, there are well-placed balconies.
+
+The Nawab Estate Government of Dhaka was acquired by the Zamindari Eviction Act in 1952. Excluded from the acquisition of the Nawab family’s property were Ahsan Manzil and its adjoining courtyard. After the independence of Bangladesh, significant numbers of Nawab family migrated abroad. Those who were in this country were not able to maintain this huge palace building. As a result, it is constantly moving towards destruction. In 1947, successors of the Nawab family planned to sell the Ahsan Manzil auction. But the far-sighted Bangabandhu Sheikh Mujibur Rahman realized the political and historical significance of the building, and on November 2, 1974 the palace building was canceled by auction. Then he ordered the establishment of museums and tourist centers here. On 3 November 1985, Ahsan took possession of the Manzil Palace and its adjoining quarters, and began the work of setting up a museum there. The Ahsan Manzil Museum was opened on September 12, 2012 for a formal opening and public inspection.
+"
+                    android:textSize="14sp"
+                    android:textColor="#2E2C2C"
+                    android:layout_marginTop="12dp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A guide lecturer is always engaged in explaining the exhibit to the audience. Ahsan Manzil plays the melody of sweet honey in the museum’s gallery. Entry price is Tk 20 for an adult Bangladeshi visitor, five for a Bangladeshi child visitor and Tk 75 for a foreign visitor. People with disabilities do not have to purchase any tickets. Students are allowed to visit the museum free of charge if they apply in advance. Filming can be done in exchange for renting outdoors. A visitor will be able to enjoy historical knowledge along with recreation by traveling here.
+
+Every day, thousands of local and foreign tourists travel to Ahsan Manzil to quench their thirst for travel. And at the end of the journey, they returned to the Pacific with historical knowledge."
+                    android:textColor="#2E2C2C"
+                    android:textSize="14sp"
+                    android:layout_marginTop="14dp"></TextView>
+
+            </LinearLayout>
+
+
+
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
